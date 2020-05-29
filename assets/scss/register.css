@@ -1,0 +1,43 @@
+.register-mobile {
+  display: none;
+}
+
+.phone {
+  width: 100%;
+  display: flex;
+}
+.phone .phone-input {
+  flex: 15;
+}
+.phone .send {
+  flex: 2;
+  height: 40px;
+  width: 100px;
+  margin-left: 30px;
+}
+
+.user-msg {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.user-msg .avatar-uploader {
+  font-size: 16px;
+  color: #e74851;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border: 1.5px solid #e74851;
+  border-radius: 50%;
+  background-color: #fffbf0;
+}
+.user-msg .avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #e74851;
+  margin-bottom: -6px;
+}
+
+/*# sourceMappingURL=register.css.map */

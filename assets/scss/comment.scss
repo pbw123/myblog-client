@@ -1,0 +1,398 @@
+$rgbcolor: rgb(231, 72, 81) !global;
+
+.card {
+  margin-top: 20px;
+  font-family: 华文行楷;
+
+}
+
+.n-card {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 20px;
+  font-family: 华文行楷;
+
+}
+
+.comment {
+
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+
+  .mobile {
+    display: none;
+  }
+
+  .user-msg {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+
+    .avatar {
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      //border: 2px solid $rgbcolor;
+    }
+
+  }
+
+  &-content {
+    border: 1.5px solid $rgbcolor;
+    height: 140px;
+    width: 100%;
+    border-radius: 10px;
+
+    .night {
+      //background: $rgbnight;
+    }
+
+    textarea {
+      background-color: transparent;
+      border: 1.5px solid $rgbcolor;
+      margin: 20px auto;
+      width: 100%;
+      //min-width: 600px;
+      padding-left: 20px;
+      height: 100px;
+      outline: none;
+      border: none;
+      //background-color: rgb(255, 251, 240);
+      font-size: 20px;
+      //opacity: 0;
+    }
+
+
+    .len {
+      color: $rgbcolor;
+    }
+  }
+
+  &-commit {
+    width: 100%;
+    height: 40px;
+    margin-top: 7px;
+    cursor: pointer;
+
+    .say {
+      //width: 120px;
+      //line-height: 40px;
+      float: right;
+      //text-align: center;
+      //border-radius: 10px;
+      //color: white;
+      //background-color: $rgbcolor;
+    }
+  }
+}
+
+.comment-bar {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+
+  .bar-left {
+    width: 80px;
+    line-height: 40px;
+    text-align: center;
+    color: $rgbcolor;
+    border-top: 1.5px solid $rgbcolor;
+    border-left: 1.5px solid $rgbcolor;
+    border-right: 1.5px solid $rgbcolor;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .bar-right {
+    border-bottom: 1.5px solid $rgbcolor;
+    width: 100%;
+    text-align: right;
+    color: $rgbcolor;
+
+    .count {
+      font-size: 30px;
+      font-weight: bold;
+      font-family: "黑体";
+    }
+
+    .tiao {
+      margin-left: 5px;
+      font-size: 20px;
+      font-weight: lighter;
+    }
+  }
+}
+
+.comment-list {
+  .tip {
+  }
+
+  .comment-item {
+
+    .main {
+      display: flex;
+      margin-top: 10px;
+      padding-bottom: 0px;
+
+      .item-left {
+
+        display: flex;
+        flex: 1;
+
+        img {
+          height: 50px;
+          width: 50px;
+          border-radius: 50%;
+        }
+      }
+
+      .item-right {
+        display: flex;
+        flex: 7;
+        flex-direction: column;
+
+        .right-top {
+          display: flex;
+          justify-content: space-between;
+        }
+
+        .right-content {
+          margin-top: 14px;
+          padding-right: 52px;
+        }
+
+        .right-bottom {
+          display: flex;
+          flex-direction: row;
+          margin-top: 10px;
+          font-size: 18px;
+
+          .time {
+            margin-right: 20px;
+
+          }
+
+          .reply {
+            display: flex;
+
+            .del {
+
+            }
+
+            .ry {
+              margin-left: 20px;
+              //width: 500px;
+            }
+          }
+        }
+
+        .children {
+          display: flex;
+          margin-top: 5px;
+          color: #606266;
+
+          .child-left {
+
+            img {
+              height: 40px;
+              width: 40px;
+              border-radius: 50%;
+            }
+          }
+
+          .child-right {
+            display: flex;
+            margin-left: 20px;
+            flex-direction: column;
+            font-size: 20px;
+            color: #303133;
+
+            .child-detail {
+              .name {
+                color: rgba(0, 0, 255, 0.7);
+                font-weight: bolder;
+                //font-family: 微軟正黑體;
+                font-family: 华文行楷;
+
+                font-size: 20px;
+              }
+            }
+
+            .r-content {
+              font-size: 26px;
+            }
+
+            .child-reply {
+              margin-top: 5px;
+              display: flex;
+              font-family: 华文行楷;
+              font-size: 20px;
+
+
+              .child-btn {
+                margin-left: 20px;
+                display: flex;
+
+                .child-del {
+
+                }
+
+                .child-ry {
+                  margin-left: 20px;
+                }
+              }
+            }
+
+          }
+        }
+
+
+      }
+
+    }
+
+
+  }
+}
+
+.look {
+  display: none;
+}
+
+.active {
+  border-bottom: 4px rgb(247, 120, 37) solid;
+  border-top: 0px;
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.defaultClass {
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  border-top: 0px;
+  cursor: pointer;
+}
+
+.login-bar {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.reply-textarea {
+  background-color: transparent;
+
+  .textarea {
+    background-color: transparent;
+    margin: 0px auto;
+    margin-top: 10px;
+    width: 100%;
+    //min-width: 600px;
+    padding-left: 10px;
+    height: 70px;
+    outline: none;
+    border: none;
+    //background-color: rgb(255, 251, 240);
+    font-size: 15px;
+    border: 1.5px solid $rgbcolor;
+    border-radius: 5px;
+    //o
+  }
+}
+
+.msg-reply-input {
+  margin-bottom: 18px;
+  position: relative;
+  width: 600px;
+
+  .reply-input {
+    position: absolute;
+    right: 0;
+    display: flex;
+
+    .btn {
+      margin-left: 4px;
+    }
+  }
+}
+
+.n-child {
+  .black {
+    color: white;
+  }
+
+  display: flex;
+  margin-left: 20px;
+  flex-direction: column;
+  font-size: 20px;
+  color: #303133;
+
+
+  .child-detail {
+    .name {
+      color: rgba(0, 0, 255, 1);
+      font-weight: bolder;
+      //font-family: 微軟正黑體;
+      font-family: 华文行楷;
+
+      font-size: 20px;
+    }
+
+    font-family: 华文行楷;
+
+  }
+
+  .r-content {
+    font-size: 26px;
+  }
+
+  .child-reply {
+    margin-top: 5px;
+    display: flex;
+    font-size: 20px;
+    font-family: 华文行楷;
+
+    .child-btn {
+      margin-left: 20px;
+      display: flex;
+
+      .child-del {
+
+      }
+
+      .child-ry {
+        margin-left: 20px;
+      }
+    }
+  }
+
+}
+
+/* 使用webkit内核的浏览器 */
+textarea::-webkit-input-placeholder {
+  color: $rgbcolor;
+  font-size: 25px;
+}
+
+/* Firefox版本4-18 */
+
+textarea:-moz-placeholder {
+  color: $rgbcolor;
+  font-size: 25px;
+}
+
+/* Firefox版本19+ */
+textarea::-moz-placeholder {
+  color: $rgbcolor;
+  font-size: 25px;
+}
+
+/* IE浏览器 */
+textarea:-ms-input-placeholder {
+  color: $rgbcolor;
+  font-size: 25px;
+}

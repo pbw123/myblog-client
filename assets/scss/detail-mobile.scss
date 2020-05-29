@@ -1,0 +1,119 @@
+
+.container{
+		width: 95%;
+		margin: 10px auto;
+		display: flex;
+		flex-direction: column;
+		max-width: 500px;
+		.left{
+			 max-width: 500px;
+
+			.type {
+				border-bottom: 5px solid rgb(219, 109, 76);
+				margin-top: 10px;
+				.tip{
+					font-size: 16px;
+					line-height: 25px;
+					font-family: "microsoft yahei";
+					color: #474645;
+					font-weight: bold;
+				}
+				.place{
+					font-size: 16px;
+					line-height: 25px;
+					span{
+						margin-right: 6px;
+					}
+				}
+			}
+
+			.title{
+				font-size: 25px;
+				font-weight: bold;
+				text-align: center;
+			}
+			.msg{
+				margin-top: 10px;
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+
+				.author{
+					display: flex;
+					margin-right: 10px;
+					position: absolute;
+					right: 0;
+					img{
+						width: 20px;
+					}
+				}
+				.author2{
+					display: none;
+				}
+				.word{
+					margin-left: 3px;
+				}
+			}
+			$rgbcolor:rgb(231, 72, 81) !global;
+
+			.content{
+				margin-top: 50px;
+			}
+			.money{
+				display: flex;
+				width: 100%;
+				margin-top: 30px;
+				justify-content: space-between;
+
+				.scan{
+				}
+				.info{
+					flex: 0 0 25%;
+					font-size: 10px;
+					color: rgb(153, 153, 153);
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					.icon{
+						img{
+							width: 20px;
+						}
+					}
+					.word{
+						line-height: 40px;
+						margin-left: 5px;
+						text-align: right;
+					}
+				}
+				.praise{
+				}
+				.reward{
+					flex: 0 0 40%;
+					padding-left: 20px;
+
+				.word{
+					font-size: 20px;
+				}
+				}
+			}
+
+		}
+
+		.right{
+		}
+	}
+	.active{
+		border-bottom: 4px rgb(247, 120, 37) solid;
+		border-top: 0px;
+		width: 150px;
+		height: 50px;
+		background-color: white;
+		cursor: pointer;
+	}
+	.defaultClass{
+		width: 150px;
+		height: 50px;
+		background-color: white;
+		border-top: 0px;
+		cursor: pointer;
+	}

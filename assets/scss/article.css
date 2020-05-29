@@ -1,0 +1,99 @@
+@charset "UTF-8";
+.article .type {
+  font-size: 26px;
+  font-family: "microsoft yahei";
+  color: "#474645";
+  font-weight: bold;
+  border-bottom: 5px solid #db6d4c;
+  padding-bottom: 10px;
+}
+.article .article-list {
+  cursor: pointer;
+}
+.article .article-list .one {
+  text-decoration: none;
+  color: black;
+}
+.article .article-list .article-item {
+  display: flex;
+  height: 270px;
+  align-items: center;
+  border-bottom: 1.5px solid #bfab86;
+}
+.article .article-list .article-item .left {
+  width: 260px;
+  height: 210px;
+}
+.article .article-list .article-item .right {
+  display: flex;
+  height: 210px;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.article .article-list .article-item .right .title {
+  font-size: 26px;
+  font-family: "microsoft yahei";
+  color: "#474645";
+  font-weight: bold;
+}
+.article .article-list .article-item .right .content {
+  margin-top: 20px;
+  height: 84px;
+  line-height: 28px;
+  font-weight: lighter;
+  font-family: "行楷";
+  width: 490px;
+  color: #777777;
+  font-size: 15px;
+  overflow: hidden;
+}
+.article .article-list .article-item .right .messages {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 13px;
+  line-height: 60px;
+  color: #9999a6;
+}
+.article .article-list .article-item .right .messages .msg-left {
+  display: flex;
+}
+.article .article-list .article-item .right .messages .msg-left li {
+  display: flex;
+  list-style: none;
+  margin-right: 10px;
+}
+.article .article-list .article-item .right .messages .msg-left li .icon {
+  padding-top: 3px;
+}
+.article .article-list .article-item .right .messages .msg-left li .icon img {
+  width: 20px;
+}
+.article .article-list .article-item .right .messages .msg-left li .word {
+  margin-left: 3px;
+}
+.article .article-list .article-item .right .messages .msg-right {
+  display: flex;
+}
+.article .article-list .article-item .right .messages .msg-right li {
+  float: right;
+  list-style: none;
+  display: flex;
+  list-style: none;
+  margin-right: 10px;
+}
+.article .article-list .article-item .right .messages .msg-right li .icon {
+  padding-top: 5px;
+}
+.article .article-list .article-item .right .messages .msg-right li .icon img {
+  width: 20px;
+}
+.article .article-list .article-item .right .messages .msg-right li .word {
+  margin-left: 3px;
+}
+.article .article-list .article-item:hover {
+  background-color: white;
+}
+
+/*# sourceMappingURL=article.css.map */

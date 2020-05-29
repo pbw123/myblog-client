@@ -1,0 +1,33 @@
+{
+  "name": "yemu",
+  "version": "1.0.0",
+  "description": "My well-made Nuxt.js project",
+  "author": "Joker",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "post": 3000
+    }
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.6.0",
+    "element-ui": "^2.12.0",
+    "mavon-editor": "^2.7.7",
+    "node-sass": "^4.12.0",
+    "nuxt": "^2.0.0",
+    "sass-loader": "^8.0.0",
+    "vant": "^2.2.7"
+  },
+  "devDependencies": {
+    "babel-plugin-component": "^1.1.1",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0"
+  }
+}

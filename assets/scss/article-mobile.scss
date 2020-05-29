@@ -1,0 +1,55 @@
+$rgb:rgb(247, 120, 37) !global
+.type{
+	height: 40px;
+	line-height: 40px;
+	padding: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	border-bottom: 5px solid $rgb;
+}
+
+.one{
+  text-decoration: none;
+  color: black;
+
+  .article-item{
+    margin-bottom: 50px;
+    //border-bottom: 1.5px solid gray;
+
+    height: 400px;
+    width: 90%;
+    background-color: ghostwhite;
+    overflow: hidden;
+    margin: 50px auto;
+    box-shadow: 10px 10px 3px #47494e;
+
+
+    .left{
+      height: 200px;
+      margin: 0px auto;
+      img{
+        height: 100%;
+        width: 100%;
+      }
+    }
+    .right{
+      margin-top: 20px;
+      width: 100%;
+
+      .title{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+      }
+      .content{
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 10px;
+        font-size: 18px;
+      }
+      .messages{
+        display: none;
+      }
+    }
+  }
+}

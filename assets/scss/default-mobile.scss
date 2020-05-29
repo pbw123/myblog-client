@@ -1,0 +1,110 @@
+
+.nav-mobile{
+  height: 100%;
+  width: 60%;
+
+  .one{
+    opacity: 0.8;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    border-bottom: 1.5px gray solid;
+    display: flex;
+    justify-content: center;
+    .item{
+      line-height: 100px;
+      color: white;
+      font-size: 25px;
+      font-weight: bold;
+    }
+    .icon {
+      margin-right: 5px;
+      width: 30px;
+      display: flex;
+      align-items: center;
+      img{
+        width: 100%;
+      }
+    }
+  }
+}
+.nav{
+  display: none;
+}
+header{
+  height: 50px;
+  img{
+    display: none;
+  }
+}
+
+.top-nav{
+  height: 50px;
+  opacity: 0.9;
+  left: 0;
+  top: 0;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  .directory{
+    height: 30px;
+    padding-left: 5px;
+
+    img{
+      height: 100%;
+    }
+  }
+  .yemu{
+    height: 50px;
+    img{
+      height: 100%;
+    }
+  }
+  .search{
+    height: 40px;
+    padding-right: 5px;
+    img{
+      height: 100%;
+    }
+  }
+
+}
+body{
+  background-color: rgb(255, 251, 240);
+}
+.main-content {
+
+  width: 100%;
+  margin: 0 auto;
+
+  .left-right {
+
+    display: flex;
+    flex-direction: column;
+
+    .main-left {
+      //margin-right: 80px;
+    }
+
+    .main-right {
+    }
+  }
+
+}
+.night{
+  background-color: $rgbnight;
+  color: white;
+}
+
+.icp {
+  height: 20px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 50px;
+}
