@@ -6,29 +6,29 @@
 
 - 首页
 
-![首页](https://user-gold-cdn.xitu.io/2020/5/29/1725f1b2aafef985?w=1899&h=903&f=png&s=2819154)
+![首页](https://upload-images.jianshu.io/upload_images/15449003-2de16c0fece610d4?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 点击导航栏以上部分可以切换背景
 
-![](https://user-gold-cdn.xitu.io/2020/5/29/1725f1d9b39e0ba3?w=1899&h=903&f=png&s=2901512)
+![image](https://upload-images.jianshu.io/upload_images/15449003-36f4687f25c3c0ea?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 - 动态
 
-![](https://user-gold-cdn.xitu.io/2020/5/29/1725f1e4d5de8677?w=1899&h=840&f=png&s=2298317)
+![image](https://upload-images.jianshu.io/upload_images/15449003-601cb3d0fee032fa?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 - 留言
 
 
-![](https://user-gold-cdn.xitu.io/2020/5/29/1725f74bc387aabc?w=1899&h=903&f=png&s=1912967)
+![image](https://upload-images.jianshu.io/upload_images/15449003-09a4f8c5a59eb1e3?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![](https://user-gold-cdn.xitu.io/2020/5/29/1725f754b97db242?w=1899&h=903&f=png&s=1406498)
+![image](https://upload-images.jianshu.io/upload_images/15449003-193c7887e70306a1?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![](https://user-gold-cdn.xitu.io/2020/5/29/1725f73e8729a025?w=1920&h=902&f=png&s=1048036)
+![image](https://upload-images.jianshu.io/upload_images/15449003-3778658e661ca0b1?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 - 关于
 
-![](https://user-gold-cdn.xitu.io/2020/5/29/1725f1ef15327b85?w=1899&h=903&f=png&s=2243668)
+![image](https://upload-images.jianshu.io/upload_images/15449003-2503135a6715dcf9?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 - 文章详情
 
-![](https://user-gold-cdn.xitu.io/2020/5/29/1725f24a92396b8d?w=1899&h=903&f=png&s=2059331)
+![image](https://upload-images.jianshu.io/upload_images/15449003-5bc83462f8dcc904?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![](https://user-gold-cdn.xitu.io/2020/5/29/1725f275403ead68?w=1899&h=901&f=png&s=1353879)
+![image](https://upload-images.jianshu.io/upload_images/15449003-97edf3a368608eda?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 # 后台管理系统
 **********
@@ -36,49 +36,49 @@
 ## 预览效果：
 - 登录
 
-![](https://user-gold-cdn.xitu.io/2020/5/29/1725f84141322d1a?w=1920&h=902&f=png&s=2947676)
+![image](https://upload-images.jianshu.io/upload_images/15449003-404a67d296dcc6a4?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 - 用户
 
-![](https://user-gold-cdn.xitu.io/2020/5/29/1725f8f4af81f576?w=1920&h=902&f=png&s=148491)
+![image](https://upload-images.jianshu.io/upload_images/15449003-e79b692b241c8f11?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 - 留言
 
-![](https://user-gold-cdn.xitu.io/2020/5/29/1725f90100781490?w=1920&h=902&f=png&s=101067)
+![image](https://upload-images.jianshu.io/upload_images/15449003-609c4891b4ab23a3?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 - 评论
 
-![](https://user-gold-cdn.xitu.io/2020/5/29/1725f9076cdc5768?w=1920&h=902&f=png&s=109694)
+![image](https://upload-images.jianshu.io/upload_images/15449003-db665794ec44034c?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 - 文章
 
-![](https://user-gold-cdn.xitu.io/2020/5/29/1725f90b8ce0a0ff?w=1920&h=902&f=png&s=99413)
+![image](https://upload-images.jianshu.io/upload_images/15449003-e1c5974721e7f1f2?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 编辑文章
 
-![](https://user-gold-cdn.xitu.io/2020/5/29/1725f91868e5fc2d?w=1904&h=882&f=png&s=378654)
+![image](https://upload-images.jianshu.io/upload_images/15449003-fc22b78e0e2aa3ee?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 - 网站信息
 
-![](https://user-gold-cdn.xitu.io/2020/5/29/1725f9229ff20c81?w=1920&h=902&f=png&s=209283)
+![image](https://upload-images.jianshu.io/upload_images/15449003-bbd6954132e55967?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 - 关注我
 
-![](https://user-gold-cdn.xitu.io/2020/5/29/1725f9276930286f?w=1920&h=902&f=png&s=91518)
+![image](https://upload-images.jianshu.io/upload_images/15449003-6f4434e2976b73e5?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 - 轮播图
 
-![](https://user-gold-cdn.xitu.io/2020/5/29/1725f92c7240545d?w=1920&h=902&f=png&s=228906)
+![image](https://upload-images.jianshu.io/upload_images/15449003-f6258d5f6ddabf0d?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 - 默认头像
 
-![](https://user-gold-cdn.xitu.io/2020/5/29/1725f930292dd0e9?w=1920&h=902&f=png&s=124976)
+![image](https://upload-images.jianshu.io/upload_images/15449003-7749e768b0773cce?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 - 友情链接
 
-![](https://user-gold-cdn.xitu.io/2020/5/29/1725f94543815348?w=1920&h=902&f=png&s=66553)
+![image](https://upload-images.jianshu.io/upload_images/15449003-355774aa4e671d44?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 - 开发历程
 
-![](https://user-gold-cdn.xitu.io/2020/5/29/1725f9497af9ea25?w=1920&h=902&f=png&s=93678)
+![image](https://upload-images.jianshu.io/upload_images/15449003-3c657da0309696d3?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 # 接口
 *********
 - 前台
 
-![](https://user-gold-cdn.xitu.io/2020/5/29/1725f990f43a2650?w=1899&h=871&f=png&s=87771)
+![image](https://upload-images.jianshu.io/upload_images/15449003-4a49eefacb628223?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 - 后台
 
-![](https://user-gold-cdn.xitu.io/2020/5/29/1725f9a0bac23a42?w=1899&h=855&f=png&s=89513)
+![image](https://upload-images.jianshu.io/upload_images/15449003-f40a6ae41dab740d?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 # 技术栈
