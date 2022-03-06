@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+.home {
+  width: 100%;
+  margin: 25px auto;
+  display: flex;
+}
+.home .msg-left {
+  width: 100%;
+}
+.home .msg-left .type {
+  font-size: 26px;
+  font-family: "microsoft yahei";
+  color: "#474645";
+  font-weight: bold;
+  border-bottom: 5px solid #db6d4c;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=message.css.map */

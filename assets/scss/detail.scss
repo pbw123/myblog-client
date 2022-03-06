@@ -1,0 +1,146 @@
+
+.container {
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  min-width: 800px;
+
+  .left {
+    flex: 0 0 70%;
+    margin-right: 30px;
+    min-width: 800px;
+
+    .breadcrumb {
+      font-size: 23px;
+      .index{
+        color: #303133;
+        &:hover{
+          cursor: pointer;
+          color: black;
+        }
+      }
+
+    }
+
+    .n-breadcrumb {
+      font-size: 23px;
+
+      .index {
+       color: white;
+      }
+      .item{
+        color: rgba(255,255,255,0.6);
+      }
+    }
+
+    .title {
+      font-size: 50px;
+    }
+
+    .msg {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+
+      .author {
+        display: flex;
+        margin-right: 10px;
+
+        .name{
+          margin-left: 5px;
+          font-size: 17px;
+          display: flex;
+          align-items: center;
+        }
+
+        img {
+          width: 20px;
+        }
+      }
+
+      .word {
+        margin-left: 5px;
+        font-size: 17px;
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    $rgbcolor: rgb(231, 72, 81) !global;
+
+    .content {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    .money {
+      display: flex;
+      width: 400px;
+      margin: 0px auto;
+
+      .scan {
+
+      }
+
+      .info {
+        margin: 0 auto;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+
+        .icon {
+
+          img {
+            width: 20px;
+          }
+        }
+
+        .word {
+          line-height: 40px;
+          margin-left: 5px;
+        }
+      }
+      .praise {
+      }
+      .reward {
+        .word {
+          font-size: 20px;
+        }
+      }
+    }
+
+    .com {
+      margin-top: 50px;
+    }
+  }
+
+  .right {
+    width: 350px;
+  }
+}
+
+.active {
+  border-bottom: 4px rgb(247, 120, 37) solid;
+  border-top: 0px;
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.defaultClass {
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  border-top: 0px;
+  cursor: pointer;
+}
+
+.card{
+  background-color: #fbfbfb;
+}
+.n-card{
+  background-color: #fbfbfb;
+  color: black;
+
+}

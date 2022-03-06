@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+$rgbcolor: rgb(231, 72, 81) !global;
+
+.home {
+  width: 100%;
+  min-width: 880px;
+  margin: 0 auto;
+  display: flex;
+
+
+  .divider{
+    margin-top: -10px;
+  }
+  .msg-left {
+    width: 100%;
+  }
+}
+
