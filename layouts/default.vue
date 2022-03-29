@@ -50,25 +50,10 @@
                   <div class="title-r">关注我</div>
                   <div class="logo">
                     <div class="item-r" v-for="(item,index) in con" :key="index">
-                      <div v-if="item.name==='公众号'">
-                        <el-tooltip placement="bottom" effect="light">
-                          <div slot="content">
-                            <img :src="info.gzh" style="width: 300px">
-                            <!--                            <img :src="we" style="width: 350px">-->
-                          </div>
-                          <div>
-                            <div class="icon">
-                              <img :src="item.icon" alt="">
-                            </div>
-                            <div class="name">
-                              {{item.name}}
-                            </div>
-                          </div>
-                        </el-tooltip>
-                      </div>
 
-                      <div v-else>
-                        <a :href="item.link">
+
+                      <div >
+                        <a :href="item.link" target="_blank">
                           <div class="icon">
                             <img :src="item.icon" alt="">
                           </div>
@@ -154,19 +139,20 @@
                 con: [
                   {
                     icon:jianshu,
-                    name:'简书'
+                    name:'简书',
+                    link:'https://www.jianshu.com/',
                   },{
+                    link:'https://juejin.cn/',
                     icon:juejin,
                     name:'掘金'
                   },{
+                    link:'https://gitee.com/',
                     icon:gitee,
                     name:'码云'
                   },{
+                    link:'https://github.com/',
                     icon:github,
                     name:'github'
-                  },{
-                    icon:gzh,
-                    name:'公众号'
                   }
                 ],
                 articles: [],

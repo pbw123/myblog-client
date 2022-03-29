@@ -1,5 +1,8 @@
 $rgbcolor: rgb(231, 72, 81) !global;
 
+.del {
+cursor: pointer;
+}
 .card {
   margin-top: 20px;
   font-family: 华文行楷;
@@ -177,9 +180,6 @@ $rgbcolor: rgb(231, 72, 81) !global;
           .reply {
             display: flex;
 
-            .del {
-
-            }
 
             .ry {
               margin-left: 20px;

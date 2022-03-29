@@ -16,12 +16,12 @@
             <div class="article-item">
               <div  :class="[!$store.state.night?'left':'n-left']">
                <div class="day">
-                 <img :src="item.aImg" class="img1"/>
-                 <img :src="item.hoverImg" class="img2" alt="">
+                 <img :src="a2" class="img1"/>
+                 <img :src="bg2" class="img2" alt="">
                </div>
                 <div class="night">
-                  <img :src="item.aImg2" class="img1"/>
-                  <img :src="item.hoverImg2" class="img2" alt="">
+                  <img :src="bg2" class="img1"/>
+                  <img :src="a2" class="img2" alt="">
 <!--                                    <img :src="a" class="img1"/>-->
 <!--                                    <img :src="a2" class="img2" alt="">-->
 
@@ -84,6 +84,8 @@
   import img from '../assets/imgs/c4.jpg'
   import a from '../assets/imgs/a.jpg'
   import a2 from '../assets/imgs/a2.jpg'
+  import bg2 from '../assets/imgs/bg2.jpg'
+  import c2 from '../assets/imgs/c2.jpg'
   export default {
         props: {
             type: String,
@@ -93,7 +95,9 @@
             return {
                 img:img,
                 a:a,
-                a2:a2
+                a2:a2,
+              bg2,
+              c2
 
             }
         },

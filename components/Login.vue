@@ -281,7 +281,7 @@
                     method: 'POST',
                     url: 'http://localhost:8888/user/login',
 
-                    params: {
+                    data: {
                         phoneNumber: _that.ruleForm.phone,
                         userPass: _that.ruleForm.pass
                     },
@@ -289,7 +289,7 @@
                         'content-type': 'application/json'
                     }
                 }).then(function (res) {
-                    if (res.data.code === 0) {
+                    if (res.data.code === 200) {
                         _that.open(res.data.msg, 'success')
                         // that.toast(res.data.code,res.data.msg)
                         _that.$refs[formName].resetFields();

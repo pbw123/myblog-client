@@ -45,7 +45,7 @@
 
           <div class="money">
 
-            <div class="praise info">
+            <div class="praise info" style="cursor: pointer">
               <div class="icon">
                 <img v-show="!isActive" src="../assets/imgs/love.png" alt="" @click="good()">
                 <img v-show="isActive" src="../assets/imgs/love3.png" alt=""
@@ -74,10 +74,10 @@
 
                   <div id="div1">
                     <div v-show="show">
-                      <img :src="info.payWechat" style="width: 300px;"/>
+                      <img :src="wx" style="width: 300px;"/>
                     </div>
                     <div v-show="!show">
-                      <img :src="info.payZfb" style="width: 300px;"/>
+                      <img :src="zfb" style="width: 300px;"/>
                     </div>
                   </div>
 
@@ -229,14 +229,12 @@
                             userId: user.userId
                         }
                     }).then(res => {
-                        if (res.data.code === 0) {
+                        if (res.data.code === 200) {
                             this.isActive = res.data.data.like;
                             let art = JSON.parse(localStorage.getItem('data'));
                             art.love = res.data.data.count
                             localStorage.setItem('data', JSON.stringify(art))
                             _that.$store.state.counter = res.data.data.count
-                        } else {
-                            console.log("error==========")
                         }
                     })
 
@@ -300,16 +298,7 @@
                     axios({
                         url:'http://localhost:8888/article/addArticleScan?aId='+_that.$route.params.article.aId,
                         method: 'get',
-                    }).then((res => {
-                        if (res.data.code === 0) {
-                            _that.$store.state.scan = res.data.data
-                            let d = JSON.parse(localStorage.getItem('data'))
-                            d.aScan = res.data.data
-                            localStorage.setItem('data', JSON.stringify(d))
-                        } else {
-                            _that.open2(res.data.msg, "error")
-                        }
-                    }))
+                    })
                 }
             },
             goHome() {
